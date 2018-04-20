@@ -15,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Run ```mvn clean install``` to build the application. This will build the application also runs the tests.
 
-## Skipping the tests
+### Skipping the tests
 
 To skip the tests run ```mvn clean install -DskipTests```
 
