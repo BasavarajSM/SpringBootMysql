@@ -27,7 +27,7 @@ The logging.file and server.port argument are optional. Profile is mandatory to 
 
 If port not set explicitly then the application runs on 8080 which is the default port for spring-boot app.
 
-You can launch the application in your browser with the url http://localhost:8080(8080 if port not set)
+You can launch the application in your browser with the url http://localhost:8080 (8080 if port not set)
 
 ## Built With
 
