@@ -21,7 +21,7 @@ To skip the tests run ```mvn clean install -DskipTests```
 
 ## Running/Booting up the application
 
-To start the application run, ```java -jar target/testrail-enhancement-client-0.0.1-SNAPSHOT.jar --logging.file=/path/TestRail/TREC.log --server.port=8099 --spring.profiles.active=test```.
+To start the application, navigate to the root path or where pom.xml exists and run ```java -jar target/testrail-enhancement-client-0.0.1-SNAPSHOT.jar --logging.file=/path/TestRail/TREC.log --server.port=8099 --spring.profiles.active=test```.
 
 The logging.file and server.port argument are optional. Profile is mandatory to set. The profile "test" is to connect to test enviornment of TestRail instance, while the "prod" profile is to point to the production environment of TestRail.
 
