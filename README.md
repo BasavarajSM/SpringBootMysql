@@ -4,8 +4,6 @@ A web client offering several functions to enrich TestRail with processes to eas
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
 ### Prerequisites
 
 * jdk 1.8
