@@ -21,13 +21,13 @@ To skip the tests run ```mvn clean install -DskipTests```
 
 ## Running/Booting up the application
 
-To start the application, navigate to the root path or where pom.xml exists and run ```java -jar target/testrail-enhancement-client-0.0.1-SNAPSHOT.jar --logging.file=/path/TestRail/TREC.log --server.port=8099 --spring.profiles.active=test```.
+To start the application, run ```java -jar testrail-enhancement-client-0.0.1-SNAPSHOT.jar --logging.file=/path/TestRail/TREC.log --server.port=8099 --spring.profiles.active=test```.
 
 The logging.file and server.port argument are optional. Profile is mandatory to set. The profile "test" is to connect to test enviornment of TestRail instance, while the "prod" profile is to point to the production environment of TestRail.
 
 If port not set explicitly then the application runs on 8080 which is the default port for spring-boot app.
 
-You can launch the application in your browser with the url http://localhost:8080 (8080 if port not set)
+You can launch the application in your browser with the url http://hostname:8080 (8080 if port not set)
 
 ## Built With
 
@@ -37,4 +37,4 @@ You can launch the application in your browser with the url http://localhost:808
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
